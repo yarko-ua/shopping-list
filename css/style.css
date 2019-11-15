@@ -1,0 +1,45 @@
+body {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mainone {
+    width: 200px;
+    /* margin: auto;
+    position: absolute;left: 100px;*/
+}
+
+.maintwo {
+    width: 300px;
+    /*  margin: auto;
+   position: absolute;right: 100px;top: 101px; */
+}
+
+ol {
+    width: max-content;
+}
+
+.one {
+    background-color: silver;
+    width: 130px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 5%;
+    padding: 5px 0px;
+}
+
+.one:hover {
+    background-color: salmon;
+}
+
+[type="checkbox"] {
+    float: left;
+}
+
+input[type="checkbox"]:checked+.one {
+    background-color: green;
+    text-decoration: line-through;
+}
